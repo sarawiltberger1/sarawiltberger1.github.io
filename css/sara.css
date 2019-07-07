@@ -1,0 +1,167 @@
+
+.center-align{
+	text-align: center;
+}
+
+.text-0{
+	min-height: 10vh;
+	background-color: #747839;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.87;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images/sara2.jpg");
+  min-height: 87vh;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #465C8B;
+}
+
+.caption span.border {
+  padding: 18px;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.mid-header{
+	font-size: 2rem;
+  	letter-spacing: 0.4rem;
+
+}
+
+.top{
+	margin-top: 3rem;
+}
+.b-1{
+	/*background-color: #747839;*/
+  	color: #465C8B;
+}
+
+.b-2{
+  	color: #F7EF6A;
+}
+
+.green-boarder-dotted {
+  position: relative;
+  /*background-color: white;*/
+  border: 5px dotted #747839;
+  padding: 4em;
+}
+
+
+.text{
+	
+	text-align: center;
+	padding:50px 80px;
+	text-align: justify;
+
+}
+
+.t1{
+
+	color: #465C8B; /*blue */
+	background-color: #DFDCE3; /* purple */
+
+}
+
+.t2{
+
+	color: #DFDCE3; /*yellow */
+	background-color: #747839; /* green */
+
+}
+
+.t3{
+
+	color: #F7EF6A; /*yellow */
+	background-color: #465C8B; /* blue */
+
+}
+
+.t4 {
+	color: #93C178; /*green */
+	background-color: #DFDCE3; /* purple */
+}
+
+a{
+	color: #747839;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #F7EF6A;
+}
+
+
+.bgimg-2 {
+  background-image: url("../images/sarabrown.jpg");
+  min-height: 87vh;
+}
+
+.skinny{
+	position: relative;
+	padding-right: 10em;
+	padding-left: 10em;
+}
+
+.font-weight-bold{
+	font-weight: 600;
+}
+
+.p-group p {
+	margin-bottom: 0rem;
+}
+
+
+.image {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: .5rem;
+}
+
+.facebook{
+	background: url("../images/facebook.png") no-repeat;
+}
+.facebook:hover{
+	background: url("../images/facebook2.png") no-repeat;
+}
+.link{
+	background: url("../images/linkedin.png") no-repeat;
+}
+.link:hover{
+	background: url("../images/linkedin2.png") no-repeat;
+}
+
+.email{
+	background: url("../images/email.png") no-repeat;
+}
+.email:hover{
+	background: url("../images/email2.png") no-repeat;
+}
+.instagram{
+	background: url("../images/instagram.png") no-repeat;
+}
+.instagram:hover{
+	background: url("../images/instagram2.png") no-repeat;
+}
+
+
+
+

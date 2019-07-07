@@ -89,16 +89,6 @@
 
 }
 
-a{
-	color: #9fa681;
-	text-decoration: none;
-}
-
-a:hover{
-	color: #747839;
-}
-
-
 .bgimg-2 {
   background-image: url("../images/sarabrown.jpg");
   min-height: 87vh;

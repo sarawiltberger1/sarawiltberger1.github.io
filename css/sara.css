@@ -28,7 +28,8 @@
   top: 45%;
   width: 100%;
   text-align: center;
-  color: #465C8B;
+  /*color: #465C8B;*/
+  
 }
 
 .caption span.border {
@@ -49,18 +50,18 @@
 	margin-top: 3rem;
 }
 .b-1{
-	/*background-color: #747839;*/
-  	color: #465C8B;
+	color: #2c2b2b; 
+  	background-color: #f3e8e8;
 }
 
 .b-2{
   	color: #F7EF6A;
 }
 
-.green-boarder-dotted {
+.boarder-dotted {
   position: relative;
   /*background-color: white;*/
-  border: 5px dotted #747839;
+  border: 5px dotted white;
   padding: 4em;
 }
 
@@ -73,39 +74,28 @@
 
 }
 
+
 .t1{
 
-	color: #465C8B; /*blue */
-	background-color: #DFDCE3; /* purple */
+	color: #2c2b2b; 
+	background-color: #f3e8e8;
 
 }
 
-.t2{
-
-	color: #DFDCE3; /*yellow */
-	background-color: #747839; /* green */
-
+.t2 {
+	background-color: #2c2b2b; 
+	color: #f3e8e8;
 }
 
-.t3{
-
-	color: #F7EF6A; /*yellow */
-	background-color: #465C8B; /* blue */
-
-}
-
-.t4 {
-	color: #93C178; /*green */
-	background-color: #DFDCE3; /* purple */
 }
 
 a{
-	color: #747839;
+	color: #9fa681;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #F7EF6A;
+	color: #747839;
 }
 
 
@@ -128,40 +118,26 @@ a:hover{
 	margin-bottom: 0rem;
 }
 
+.bottom{
+	background-color: #2c2b2b; 
+	color: #f3e8e8;
+}
 
 .image {
-	width: 40px;
-	height: 40px;
+	width: 4rem;
 	display: inline-block;
 	margin-right: .5rem;
+	fill: #f3e8e8;
 }
 
-.facebook{
-	background: url("../images/facebook.png") no-repeat;
+.image:hover{
+	fill: #ded1d1;
+	position: relative;
+	-moz-transform: translate(0px, -.5rem);
+    -ms-transform: translate(0px, -.5rem);
+    -o-transform: translate(0px, -.5rem);
+    -webkit-transform: translate(0px, -.5rem);
+    transform: translate(0px, -.5rem)
 }
-.facebook:hover{
-	background: url("../images/facebook2.png") no-repeat;
-}
-.link{
-	background: url("../images/linkedin.png") no-repeat;
-}
-.link:hover{
-	background: url("../images/linkedin2.png") no-repeat;
-}
-
-.email{
-	background: url("../images/email.png") no-repeat;
-}
-.email:hover{
-	background: url("../images/email2.png") no-repeat;
-}
-.instagram{
-	background: url("../images/instagram.png") no-repeat;
-}
-.instagram:hover{
-	background: url("../images/instagram2.png") no-repeat;
-}
-
-
 
 

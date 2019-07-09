@@ -69,9 +69,14 @@
 .text{
 	
 	text-align: center;
-	padding:50px 80px;
+	padding: 50px 80px;
 	text-align: justify;
 
+}
+
+.project-text{
+	padding: 3rem 4rem;
+	text-align: left;
 }
 
 
@@ -129,5 +134,7 @@
     -webkit-transform: translate(0px, -.5rem);
     transform: translate(0px, -.5rem)
 }
+
+
 
 
